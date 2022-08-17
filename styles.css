@@ -1,0 +1,56 @@
+body{
+  background-color: #383838
+}
+
+h1{
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  font-size: 5rem;
+  margin-bottom: 50px;
+  color: #00FFC6;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  padding: 50px;
+  padding-top: 5px;
+  margin-bottom: 40px;
+  margin-top: 5px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.8rem;
+  color: #00FFC6;
+
+}
+.foot{
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.1rem;
+  color: aliceblue;
+  }
+  .img1{
+    width: 80%;
+  }
+  .img2{
+    width: 80%;
+  }
+  .button{
+    background-color: cadetblue;
+    text-align: center;
+  }
+  .start{
+    width: 100px;
+    height: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1rem;
+  }
+  .click{
+    background-color: #00ffc8d0;
+  }

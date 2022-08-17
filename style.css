@@ -1,0 +1,512 @@
+body{
+    margin: 0;
+    
+   
+}
+h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#start-page{
+    text-align: center;
+    background-color: rgba(170, 248, 248, 0.913);
+    padding: 7% 15%;
+}
+
+.name{
+    font-family: 'Pacifico', cursive;
+    font-size: 3rem;
+    animation: movedown 1s linear 1s; 
+    visibility: hidden;
+    animation-delay: 1s; 
+    animation-fill-mode: forwards;
+}
+
+
+
+.creater{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    margin-top: 0;
+    font-size: 2rem;
+    animation: movedown 1s linear 1s; 
+    animation-delay: 1s; 
+    visibility: hidden; 
+    animation-fill-mode: forwards;
+    
+}
+.mountain{
+    width: 40%;
+    position: relative;
+    top: 90px;
+    animation: zoomin 1s linear 1s; 
+    visibility: hidden;
+    animation-delay: 4s; 
+    animation-fill-mode: forwards;
+}
+
+
+.cloud-2{
+    position: absolute;
+    right: 65%;
+    animation: moveright 1s linear 1s;
+    animation-delay: 2s;
+    visibility: hidden; 
+    animation-fill-mode: forwards;
+}
+
+.cloud-1{
+    position: relative;
+    left: 35%;
+    animation: moveleft 1s linear 3s;
+    visibility: hidden; 
+    animation-fill-mode: forwards;
+}
+
+                /****************************heading**********************************************/
+
+
+#info{
+    padding: 6% 2%;
+}
+
+.boy{
+    position: relative;
+    top: 20px;
+    width: 10%;
+    margin-right: 30px;
+    float: left;
+}
+
+.content > h2{
+    position: relative;
+    left: 0px;
+    margin-bottom: 20px;
+    margin-left: 185px;
+}
+
+.content p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    margin-left: 180px;
+    text-align: justify;
+    font-size: 1.1rem;
+    line-height: 2;
+    color: grey
+}
+.content{
+    padding: 20px;
+}
+
+
+/*************************************interest******************************************************/
+
+
+#interests{
+    padding: 6% 2%;
+    background-color: #96BAFF;
+}
+
+
+#interests h2{
+    margin-bottom: 50px;
+    margin-left: 205px;
+}
+.int-1{
+    margin-bottom: 100px;
+}
+.int-1 img{
+    width: 10%;
+    float: left;
+    margin-right: 60px;
+}
+.int-1 h3{
+    margin-bottom: 20px;
+}
+.int-1 p {
+    font-size: 1.2rem;
+    color: rgb(6, 6, 6);
+    line-height: 2;
+}
+
+.int-2 img{
+   width: 10%;
+   float: left;
+   margin-right: 60px;
+   margin-top: 10px;
+   
+}
+.int-2 h3{
+    
+        margin-bottom: 20px;
+}
+.int-2 p {
+    font-size: 1.2rem;
+    color: rgb(1, 1, 1);
+    line-height: 2;
+}
+
+/*************************************hobby******************************************************/
+
+
+#hobby{
+    padding: 6% 2%;
+    
+
+}
+
+#hobby h2{
+    margin-bottom: 100px;
+    text-align: center;
+}
+#hobby img{
+    width: 10%;
+    margin-bottom: 30px;
+}
+
+#hobby .image-hd{
+    text-align: center;
+}
+#hobby h3{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
+/*************************************my work******************************************/
+
+#mywork{
+    padding: 3% 2%;
+    background-color: #7045AF
+}
+#mywork h2{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 100px;
+    
+}
+#mywork img{
+    width: 30%;
+    margin: 50px;
+}
+
+.ch1{
+    background-color: #0bc3f6;
+    text-align: center;
+
+}
+
+.ch2{
+    background-color: #F6F54D;
+    text-align: center;
+}
+
+.ch3{
+    background-color: #F55353;
+    text-align: center;
+}
+
+ 
+#mywork .alert-msg{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    display: none;
+}
+.mywork{
+    margin-bottom: 100px;
+}
+/***********************************footer******************************************************/
+
+#footer h2{
+    color: white;
+}
+#footer{
+    padding: 2% 2%;
+    background-color: rgb(0, 0, 0);
+}
+
+#footer img{
+    width: 3.5%;
+    margin-right: 5px;
+
+}
+.social-media{
+    text-align: center;
+}
+
+
+#footer h3{
+    margin-right: 100px;
+}
+
+#footer h2{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#footer p{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+
+@keyframes movedown {
+    0%{
+        transform: translateY(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0px);
+        visibility: visible;
+    }
+}
+
+
+
+@keyframes moveright {
+    0%{
+        transform: translateX(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0px);
+        visibility: visible;
+    }
+    
+}
+
+
+
+@keyframes moveleft {
+    0%{
+        transform: translateX(50px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0px);
+        visibility: visible;
+    }
+    
+}
+
+@keyframes zoomin {
+    0%{
+        transform: scale(0.5);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+
+
+
+@media (max-width:568px) { 
+    #start-page{
+        text-align: center;
+        background-color: rgba(170, 248, 248, 0.913);
+        padding: 6% 13%;
+       
+    }
+    .name{
+        font-family: 'Pacifico', cursive;
+        font-size: 1.5em;
+        animation: movedown 1s linear 1s; 
+        visibility: hidden;
+        animation-delay: 1s; 
+        animation-fill-mode: forwards;
+    }
+
+    .creater{
+        font-family: 'Oleo Script Swash Caps', cursive;
+        margin-top: 0;
+        font-size: 1.5rem;
+        animation: movedown 1s linear 1s; 
+        animation-delay: 1s; 
+        visibility: hidden; 
+        animation-fill-mode: forwards;
+        
+    }
+    .container{
+        text-align: center;
+        position: relative;
+        top: 25px;
+    
+    }
+    .cloud-2{
+        width: 30%;
+        position: relative;
+        right: 35%;
+        animation: moveright 1s linear 1s;
+        animation-delay: 2s;
+        visibility: hidden; 
+        animation-fill-mode: forwards;
+        
+    }
+    .cloud-1{
+        position: relative;
+        left: 30%;
+        top: 1px;
+        animation: moveleft 1s linear 3s;
+        visibility: hidden; 
+        animation-fill-mode: forwards;
+        width: 30%;
+        
+    }
+    .mountain{
+        display: none;
+    }
+
+
+#info{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 10% 1%; 
+    background-color: rgba(252, 254, 253, 0.63);
+   
+}
+.content{
+    text-align: center;
+}
+
+.boy{
+    width: 20%;
+    position: relative;
+    left: 130px;
+    margin-bottom: 20px; 
+    display: none; 
+   
+}
+.content p{
+    word-spacing: 2px;
+
+
+    text-align: center;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 1em;
+    position: relative;
+    right: 180px;
+   
+}
+
+.content > h2{
+
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 0px;
+    left: -80px;
+    
+}
+
+#interests{
+    padding: 6% 5%;
+    background-color: #96BAFF;
+}
+#interests h2{
+    margin-bottom: 50px;
+    margin-left: 120px;
+}
+.int-1{
+    margin-bottom: 50px;
+}
+.int-1 img{
+    width: 20%;
+    float: none;
+    margin-left: 140px;
+    margin-bottom: 50px;
+
+}
+.int-1 h3{
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+.int-1 p {
+
+
+    word-spacing: 2px;
+
+    color: rgb(8, 8, 8);
+    text-align: center;
+    text-align: justify;
+    font-size: 1rem;
+    
+   
+}
+
+.int-2 img{
+   width: 20%;
+   float: none;
+   margin-left: 140px;
+    margin-bottom: 50px;
+   
+}
+.int-2 h3{
+    margin-bottom: 20px;
+    margin-left: 110px;
+    
+       
+}
+.int-2 p {
+    word-spacing: 2px;
+
+    
+    color: rgb(10, 10, 10);
+    line-height: 2;
+    text-align: center;
+    text-align: justify;
+    width: 100%;
+    font-size: 1em;
+}
+
+
+
+#hobby{
+    padding: 6% 5%;
+
+}
+
+#hobby h2{
+    margin-bottom: 50px;
+    text-align: center;
+}
+#hobby img{
+    width: 15%;
+    margin-bottom: 20px;
+  
+
+}
+#hobby h3{
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+.row{
+    margin-bottom: 50px;
+}
+.mywork{
+    margin-bottom: 20px;
+}
+
+#footer img{
+    width: 10%;
+    margin-right: 5px;
+
+}
+
+}
+
